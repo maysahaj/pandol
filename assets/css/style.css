@@ -52,4 +52,6 @@ body{
 .footer p{
   font-size: 14px;
   overflow: hidden;
+  color:#fff;
+  font-weight: 500;
 }
