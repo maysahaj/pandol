@@ -11,6 +11,13 @@ body{
   font-weight: normal;
   font-style: normal;
   }
+  @font-face {
+    font-family: 'JF-Flat-Regular';
+    src: url('../fonts/JF-Flat-Regular.ttf');
+    src: local('☺'),  url('../fonts/JF-Flat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
   .left-side img{
     width:100%;
   }
@@ -33,4 +40,16 @@ body{
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
   color: #000;
+}
+/*footer
+*/
+.footer{
+  background-color: #3e70c7;
+  padding: 20px;
+  font-family: 'JF-Flat-Regular';
+
+}
+.footer p{
+  font-size: 14px;
+  overflow: hidden;
 }
