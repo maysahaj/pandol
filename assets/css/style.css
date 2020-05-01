@@ -210,7 +210,7 @@ body{
  padding-top:20px;
  padding-bottom:20px;
 
-font-size: 13px;
+font-size: 15px;
 font-family: 'JF-Flat-Regular';}
  
 
@@ -330,4 +330,10 @@ background-color: #000;
   margin-bottom: 0;
   list-style: none;
   text-align: center;
-}}
+}
+.footer-top-area {
+
+font-size: 14px;
+
+}
+}
