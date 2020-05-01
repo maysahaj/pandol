@@ -292,8 +292,8 @@ font-family: 'JF-Flat-Regular';}
   position: relative;
   width: 100%;
   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px; 
+   padding-right: 0px;
+   padding-left: 0px; 
 }
 .fa-bars {
   color: #fff;
@@ -312,11 +312,11 @@ font-family: 'JF-Flat-Regular';}
 }
 .search span img {
 
-  left: 65px;
+  left: 70px;
 }
 .info-desc {
  
-  padding-right: 48px;
+  padding-right: 8px;
 }
 
 
@@ -353,5 +353,9 @@ font-size: 14px;
 }
 .search-page2 .btn-search{
   width:100%;
+}
+.submit {
+
+  padding: 15px 20px;
 }
 }
