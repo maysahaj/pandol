@@ -301,10 +301,16 @@ font-family: 'JF-Flat-Regular';}
    padding-right: 15px;
    padding-left: 15px; 
 }
+.fa-bars {
+  color: #fff;
+  font-size: 22px;
+}
 .bodyyyy .search .row img {
    width:50%;
    margin: 0 auto;
+   margin-top:30px;
 }
+
 .search input {
   width: 80%;
   margin: 0 auto;
