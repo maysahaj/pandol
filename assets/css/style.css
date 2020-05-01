@@ -206,7 +206,7 @@ body{
  /*footer
  */
  .footer-top-area {
-     background: none repeat scroll 0 0 #3e70c7;
+ background: none repeat scroll 0 0 #3e70c7;
  color: #fff;
  padding-top:20px;
  padding-bottom:20px;
@@ -214,14 +214,6 @@ body{
 font-size: 15px;
 font-family: 'JF-Flat-Regular';}
  
-
-
-
-
-
-
-
-
 /**/
 /*Scroll*/
 ::-webkit-scrollbar {
@@ -254,19 +246,16 @@ font-family: 'JF-Flat-Regular';}
   .search-page2 .logo1 img{
     width:100%;
   }
-  .search-page2  span img{
+  .search-page2 span img {
     position: absolute;
-    left:400px;
-    margin-top: 30px;
-  }
+    left: 28px;
+    margin-top: 15px;
+}
   .result-search{
     font-family: 'Droid-Naskh-Regular';
     color:#000;
   }
-  .result-search img{
-      width:100%;
-      
-  }
+
   .result-search h5{
     font-size: 17px;
     color:#b80f2a;
@@ -277,6 +266,13 @@ font-family: 'JF-Flat-Regular';}
     color:#000;
   }
 .search-page2 .row .col-md-6,.search-page2 .row .col-md-3{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.search-page2 .row .col-md-11{
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -356,5 +352,8 @@ font-size: 14px;
 .search-page2 span img {
   
 left:100px;
+}
+.result-search img{
+ display: none;  
 }
 }
