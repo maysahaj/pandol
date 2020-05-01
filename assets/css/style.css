@@ -19,6 +19,13 @@ body{
     font-weight: normal;
     font-style: normal;
     }
+    @font-face {
+      font-family: 'Droid-Naskh-Regular';
+      src: url('../fonts/Droid-Naskh-Regular.ttf');
+      src: local('☺'),  url('../fonts/Droid-Naskh-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      }
     .bodyyyy{
       overflow-x: hidden;
       overflow-y: hidden;
@@ -252,7 +259,7 @@ font-family: 'JF-Flat-Regular';}
     margin-top: 30px;
   }
   .result-search{
-    font-family: 'JF-Flat-Regular';
+    font-family: 'Droid-Naskh-Regular';
     color:#000;
   }
   .result-search img{
@@ -265,9 +272,8 @@ font-family: 'JF-Flat-Regular';}
     font-weight: 600;
   }
   .result-search .row span{
-    font-size: 15px;
+    font-size: 14px;
     color:#000;
-    font-weight: 500;
   }
 .result-search .row .col-md-11{
   position: relative;
@@ -276,4 +282,37 @@ font-family: 'JF-Flat-Regular';}
   padding-right: 15px;
   padding-left: 0px;
 }
+@media (max-width: 992px) {   /* responsive mobiles and small devicess*/
 
+.navbar-dark .navbar-toggler {
+  border: 2px solid #b80f2a ;
+
+
+}
+.bodyyyy .search .row img {
+   width:50%;
+   margin: 0 auto;
+}
+.search input {
+  width: 80%;
+  margin: 0 auto;
+}
+.search span img {
+
+  right: 55px;
+}
+
+
+.navbar-toggler {
+font-size:16px;
+background-color: #000;
+}
+.navbar-nav {
+  display: flex;
+  margin:0 auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0;
+  list-style: none;
+  text-align: center;
+}}
