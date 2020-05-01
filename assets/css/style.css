@@ -341,19 +341,19 @@ font-size: 14px;
 
 }
 .search-page2 .logo1 img {
-  width:50%;
+  width:90%;
   margin: 0 auto;
   display: flex;
 }
 .search-page2 input {
-  width: 80%;
+
   margin: 0 auto;
 }
-.search-page2 span img {
-  
-left:100px;
-}
+
 .result-search img{
  display: none;  
+}
+.search-page2 .btn-search{
+  width:100%;
 }
 }
