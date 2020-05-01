@@ -239,4 +239,29 @@ font-family: 'JF-Flat-Regular';}
     left:400px;
     margin-top: 30px;
   }
-
+  .result-search{
+    font-family: 'JF-Flat-Regular';
+    color:#000;
+  }
+  .result-search img{
+      width:100%;
+      
+  }
+  .result-search h5{
+    font-size: 17px;
+    color:#b80f2a;
+    font-weight: 600;
+  }
+  .result-search .row span{
+    font-size: 15px;
+    color:#000;
+    font-weight: 500;
+  }
+.result-search .row .col-md-11{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+}
