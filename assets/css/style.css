@@ -277,6 +277,14 @@ font-family: 'JF-Flat-Regular';}
   padding-right: 15px;
   padding-left: 15px;
 }
+.navbar-brand img{
+  width:60px;
+  height: 60px;
+  object-fit: fill;
+  background: #fff;
+  border-radius: 50%;
+  border:1px solid #000;
+}
 @media (max-width: 992px) {   /* responsive mobiles and small devicess*/
 
 .navbar-dark .navbar-toggler {
@@ -304,6 +312,7 @@ font-family: 'JF-Flat-Regular';}
    margin: 0 auto;
    margin-top:30px;
 }
+
 
 
 .search input {
